@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-05-15
+
+### Added
+
+- FR11.7: Code-construct exclusion. Parsers MUST NOT extract markers from fenced code blocks (``` and ~~~ delimiters), inline code spans (Markdown), source-language string literals (JS/TS/JSX/TSX), and Python triple-quoted strings. Markers inside these constructs MUST be silently ignored.
+
 ## [1.0.0] - 2026-05-14
 
 ### Added
